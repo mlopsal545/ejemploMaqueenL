@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    basic.showString("M")
     basic.pause(1000)
     maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
     basic.pause(1000)
